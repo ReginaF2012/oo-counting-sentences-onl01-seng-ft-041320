@@ -7,11 +7,10 @@ class String
   end
 
   def question?
-
-  endself.end_with?("?")
-
+    self.end_with?("?")
+  end
   def exclamation?
-
+    self.end_with?("!")
   end
 
   def count_sentences
