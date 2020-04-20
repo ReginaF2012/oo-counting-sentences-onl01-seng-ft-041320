@@ -17,6 +17,6 @@ class String
    self.split("!")
    self.split(".")
    self.split("?")
-   self.reject(:?empty)
+   sentence_count = self.reject
   end
 end
