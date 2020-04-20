@@ -17,6 +17,7 @@ class String
    self.split("!")
    self.split(".")
    self.split("?")
-   sentence_count = self.reject{ |s| s
+   sentence_count = self.reject{ |s| s.empty?}
+   sentence_count
   end
 end
