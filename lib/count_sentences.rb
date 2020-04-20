@@ -17,6 +17,6 @@ class String
    self.split("!")
    self.split(".")
    self.split("?")
-   
+   self.reject
   end
 end
